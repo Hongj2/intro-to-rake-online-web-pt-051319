@@ -13,9 +13,7 @@ task :hola do
   puts "hola de Rake!"
 end
  
-  task :environment do
-  require 'pry'
-end
+
 
 desc 'drop into the Pry console'
 task :console => :environment do
